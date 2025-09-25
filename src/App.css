@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f7f9fa;
+    color: #333;
+}
+
+.exo {
+    font-family: "Inter", sans-serif;
+}
+.roboto {
+    font-family: "Inter", sans-serif;
+}
+
+.bg-primary{
+    background-color: #2a8e9e;
+}
+
+.text-primary {
+    color: #2a8e9e;
+}
+
+.bg-secondary{
+    background-color: #2a8e9e;
+}
+
+.text-secondary{
+    color: #2a8e9e;
+}
+
+h2 {
+    font-size: 29px;
+    line-height: 1.25;
+    letter-spacing: -0.05rem;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0px 20px;
+    margin: 0 auto
+}
+
+/* featured-hero start */
+.featured-hero-wrapper{
+    background-image: url('./assets/images/home-hero-2000w.webp');
+}
+/* featured-hero end */
+
+.product-select{
+    background: #fff url('./assets/images/dropdown-arrow.svg') center right 15px no-repeat;
+    background-size: 10px ;
+}
+
+.btn-Serial{
+    background: #f7f9fa url('./assets/images/rihjt-arrow.svg') center right 15px no-repeat;
+    background-size: 10px ;
+}
+
+hr {
+    background: rgba(42,142,158,0.2);
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 40px 0;
+}
+
+/* Table  */
+table.cky-cookie-audit-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table.cky-cookie-audit-table thead tr th {
+    padding: 10px;
+    font-size: 12px;
+    color: #000000;
+    word-break: normal;
+    background-color: #d9dfe7;
+    border: 1px solid #cbced6;
+    font-weight: 600;
+    text-align: left;
+}
+.cky-cookie-audit-table tr:nth-child(2n + 1) td {
+    background: #f1f5fa;
+    padding: 10px;
+    font-size: 12px;
+    color: #000000;
+    word-break: normal;
+}
+.cky-cookie-audit-table tr:nth-child(2n) td {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 12px;
+    color: #000000;
+    word-break: normal;
+}
+.cky-cookie-audit-table td {
+    border: 1px solid #d5d8df;
+}
+
+/* Guide details styling */
+
+.guide-details-wrapper {
+        line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    letter-spacing: .01rem;
+}
+
+.guide-details-wrapper h1 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.guide-details-wrapper h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333333;
+    font-weight: 700;
+}
+.guide-details-wrapper h3 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.guide-details-wrapper p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.guide-details-wrapper a {
+    font-size: 16px;
+    color: #0054ad;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.mac-guides-container {
+   border: 1px solid rgba(214, 214, 214, .831372549);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.mac-guides-container .accordion {
+padding: 10px 20px;
+    background-size: 28px !important;
+    background-color: #fff !important;
+    border-bottom: 1px solid rgba(214, 214, 214, .831372549);
+}
+.mac-guides-container .accordion:last-of-type {
+    border-bottom: none
+}
+
+.mac-guides-container .accordion-content {
+display: none;
+}
+
+.mac-guides-container .accordion .accordion-title {
+    cursor: pointer;
+    margin-bottom: 0;
+    line-height: 1.6;
+    padding-right: 40px;
+}
+
+.mac-guides-container .accordion .accordion-title button {
+    color: #070707;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    text-align: left;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    padding: 0;
+    font-weight: 600;
+    transition: none;
+}
+
+
+.guide-details-wrapper img {
+    float: right;
+    margin: 0 0 10px 10px;
+        border: 1px solid rgba(214, 214, 214, .831372549);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fff;
+}
