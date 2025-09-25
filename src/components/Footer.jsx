@@ -1,7 +1,6 @@
 import React from 'react';
 import faceBook from '../assets/images/facebook.svg';
 import twiter from '../assets/images/x.svg';
-import linkedIn from '../assets/images/linkedin.svg';
 import { Link } from 'react-router-dom';
 
 function Footer() {
